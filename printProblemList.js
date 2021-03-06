@@ -17,7 +17,7 @@ async function bojPrintProblemList(list){
 			}
 			
 			//mathjax 적용
-			MathJax.typeset();
+			MathJax.typesetPromise();
 }
 
 //아무 문제 페이지(ex. problem/1003)에서 스크립트 실행해야함
